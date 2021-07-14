@@ -10,11 +10,11 @@ public class TestDao {
 	public void run() {
 		PremierLeagueDAO dao = new PremierLeagueDAO();
 		System.out.println("Players:");
-		System.out.println(dao.listAllPlayers());
+		//System.out.println(dao.listAllPlayers());
 		System.out.println("Teams:");
 		System.out.println(dao.listAllTeams());
 		System.out.println("Actions:");
-		System.out.println(dao.listAllActions());
+		System.out.println(dao.listAllActions().size());
 		System.out.println("Matches:");
 		System.out.println(dao.listAllMatches());
 	}
